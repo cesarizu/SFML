@@ -33,9 +33,7 @@ set(SRC
     ${INCROOT}/Utf.hpp
     ${INCROOT}/Utf.inl
     ${INCROOT}/Vector2.hpp
-    ${INCROOT}/Vector2.inl
     ${INCROOT}/Vector3.hpp
-    ${INCROOT}/Vector3.inl
     ${SRCROOT}/FileInputStream.cpp
     ${INCROOT}/FileInputStream.hpp
     ${SRCROOT}/MemoryInputStream.cpp
