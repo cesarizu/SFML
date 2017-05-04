@@ -39,6 +39,9 @@ elseif(SFML_OS_ANDROID)
     set(CMAKE_LIBRARY_PATH ${CMAKE_LIBRARY_PATH} "${PROJECT_SOURCE_DIR}/extlibs/libs-android/${CMAKE_ANDROID_ARCH_ABI}")
 endif()
 
+# add the GLM sources path
+include_directories(${PROJECT_SOURCE_DIR}/extlibs/glm)
+
 # define the path of our additional CMake modules
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/Modules/")
 
